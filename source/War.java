@@ -1,7 +1,3 @@
-import Warrior
-import RallyAction
-import HealAction
-
 public class War {
 
         public static void main(String[] args) {
