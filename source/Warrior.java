@@ -14,7 +14,7 @@ public class Warrior {
         troopEffector.executeAction(); // delegates the action to the Strategy object
     }
 
-    public void replaceEffector(TroopEffector effector) {
+    public void replaceTroopEffector(TroopEffector effector) {
     
         this.troopEffector = effector; // sets the new effect
         System.out.println("Replaces effector with "+ effector.toString());        

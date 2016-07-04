@@ -10,6 +10,6 @@ public class RallyAction implements TroopEffector {
         @Override
         public String toString() {
         
-            System.out.println("Troops will now rally to my banner");
+            return "Troops will now rally to my banner";
         }
 }
